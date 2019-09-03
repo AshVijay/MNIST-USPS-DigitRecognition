@@ -1,8 +1,2 @@
 # MNIST-USPS-DigitRecognition
-
-Training a handwritten digit recognition model using: 
-1)Multilayered Perceptron with a single Hidden Layer 
-2)Softmax regression model trained using cross entropy loss 
-3)A rudimentary CNN architecture 
-
-With the aim of transfering learned parameters to an unseen usecase, namely, the USPS(United States Postal Service) dataset.
+This is a trivial project demonstrating the subtle differences between multi class logistic regression, multilayered perceptrons+softmax(trained using cross entropy loss) and CNNs+softmax(trained using cross entropy loss) architectures in classifying digits. It also shows how well certain models can transfer over to other datasets(USPS) provided the data distributions of the two are similar. 
